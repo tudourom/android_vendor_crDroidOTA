@@ -165,10 +165,10 @@
             <devicename>Oneplus 5</devicename>
             <filename>crDroidAndroid-8.1-20180306-cheeseburger-v4.0</filename>
             <buildtype>Nightly</buildtype>
-            <download>https://goo.gl/QCKULK</download>
+            <download>https://goo.gl/XQRwca</download>
             <changelog>https://raw.githubusercontent.com/tudourom/android_vendor_crDroidOTA/8.1/changelog_cheeseburger.txt</changelog>
             <gapps>http://opengapps.org</gapps>
-            <forum>https://goo.gl/QCKULK</forum>
+            <forum>https://goo.gl/XQRwca</forum>
             <paypal>https://goo.gl/wFCtWu</paypal>
             <telegram>https://t.me/joinchat/GJLqTwtxN3lBChcCPMsd1g</telegram>
         </cheeseburger>
