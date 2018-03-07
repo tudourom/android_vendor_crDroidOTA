@@ -163,7 +163,7 @@
         <cheeseburger>
             <maintainer>Pranav Vashi (tudourom)</maintainer>
             <devicename>Oneplus 5</devicename>
-            <filename>crDroidAndroid-8.1-20180307-cheeseburger-v4.0-beta-tudourom</filename>
+            <filename>crDroidAndroid-8.1-20180308-cheeseburger-v4.0-beta-tudourom</filename>
             <buildtype>Nightly</buildtype>
             <download>https://goo.gl/XQRwca</download>
             <changelog>https://raw.githubusercontent.com/tudourom/android_vendor_crDroidOTA/8.1/changelog_cheeseburger.txt</changelog>
