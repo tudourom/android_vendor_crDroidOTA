@@ -1,7 +1,119 @@
 ====================
+     03-08-2018
+====================
+
+   * android/
+daa8ba0 manifest: Track libnativehelper
+
+   * device/oneplus/msm8998-common/
+c06ee08 msm8998: audio: disable ANC if not in call
+
+   * external/chromium-webview/
+5b1f51b Update webviews to Chromium 65.0.3325.144
+
+   * frameworks/base/
+3c787da Updated translations
+b161048 hwui: Fix Native Crash of EGL_BAD_ALLOC
+0edfbf7 wakelock: continue read file when returned count > 0
+be78bab KernelWakelockReader: stop the panic
+5d44246 Accounts: Fix TokenCache maps access
+718191c PackageManager: Avoid null access
+6f7afa9 Revert "OMS: Only allow trusted overlays to be registered."
+9980491 Music ticker: once per track is enough
+daba7d0 Stock Recents: use Slim Recents icons management [1/2]
+9fe4bb9 Merge 'lineage-15.1' into 8.1
+
+   * lineage-sdk/
+dea0610 Revert "lineage-sdk: Update the way OMS records details about overlays"
+
+   * packages/apps/LineageParts/
+d971e73 Revert "LineageParts: Update the way OMS records details about overlays"
+
+   * packages/apps/Settings/
+d62d028 Revert "Update the way OMS records details about overlays"
+
+   * packages/apps/SlimRecents/
+ee6e934 Reset icons normalizer on icon pack change
+
+   * packages/apps/crDroidSettings/
+5311c91 Updated translations
+
+   * packages/inputmethods/LatinIME/
+8e7943c Latin IME bug with deleted text will reappear after screen orientation changes
+
+====================
+     03-07-2018
+====================
+
+   * android/
+80906a7 manifest: Track awk
+
+   * bootable/recovery/
+a55e565 recovery: Add awk lib and driver
+
+   * external/libpng/
+30220da libpng: Update to version 1.6.35beta01
+
+   * external/one-true-awk/
+cfe7878 awk: Add libawk_main for recovery and fixup symbols
+
+   * frameworks/base/
+a32fded Revert "Visualizer: Adjust for volume level"
+3fdb2b0 PowerManager: Allow to distinguish different keypresses
+df13bc2 PowerManagerService: fix HW button illumination timeout
+2360e60 PowerManagerService: Allow to light up buttons only when pressed
+f11147d Revert "framework: fix screenshot and rotation animation for devices with abnormal hw rotation"
+b960466 Updated translations
+
+   * frameworks/native/
+cd9348d Merge 'lineage-15.1' into 8.1
+6e58bf0 InputDispatcher: On keypress, deliver keycode to pokeUserActivity
+dcbb80b PowerManager.h: Define USER_ACTIVITY_FLAG values
+
+   * hardware/qcom/media-caf/msm8994/
+2acee94 mm-video-v4l2: Check for correct error code
+
+   * lineage-sdk/
+a7fbd7b Merge 'lineage-15.1' into 8.1
+945545d LineageSettings: Add a setting for button backlight only when pressed
+
+   * packages/apps/DUI/
+1c547c7 Reapply dark intensity when accent is changed
+
+   * packages/apps/Jelly/
+ac3efcd Jelly: Cleanup for O
+d92504e Jelly: Don't allow ime to learn in incognito mode
+
+   * packages/apps/LineageParts/
+9545076 Merge 'lineage-15.1' into 8.1
+d9e613b ButtonSettings: Add a toggle for button backlight only when pressed
+b4c4172 Merge remote-tracking branch 'los/lineage-15.1' into 8.1
+
+   * packages/apps/SlimRecents/
+319618b Slimrecents thumbnails: improve scalability
+bb0245d Slimrecents: Improve card layout
+c613488 Refesh icon shape size when changing panel scale
+c219ee0 Stock Recents: use Slim Recents icons management [2/2]
+
+   * packages/apps/crDroidSettings/
+b5c8274 Updated translations
+
+   * vendor/crDroidOTA/
+d088338 dumpling: update to crDroidAndroid-8.1-20180307-dumpling-v4.0
+36ee291 land: New Update for Redmi 3S
+
+   * vendor/lineage/
+7be2e80 lineage: Add awk
+
+====================
      03-06-2018
 ====================
 
+   * android/
+e861b19 manifest: android-8.1.0_r11 -> android-8.1.0_r15
+
+   * build/make/
+3e97fc1 Merge tag 'android-8.1.0_r15' into lineage-15.1
 
    * device/lineage/sepolicy/
 a327636 sepolicy: add style api
@@ -9,22 +121,33 @@ a327636 sepolicy: add style api
    * device/oneplus/msm8998-common/
 a9af808 msm8998: add audio_amplifier for setting ANC parameter
 
+   * frameworks/av/
+a463552 Merge tag 'android-8.1.0_r15' into lineage-15.1
+
    * frameworks/base/
+caa84f1 Merge tag 'android-8.1.0_r15' into lineage-15.1
 8638db0 Updated translations
 
    * hardware/qcom/audio-caf/msm8996/
 b755dfd hal: switch audio_extn_set_parameters and amplifier_set_parameters
 
    * lineage-sdk/
+a9afea7 lineage-sdk: Update the way OMS records details about overlays
 b2e0c2f Merge 'lineage-15.1'into 8.1
-76fc3d3 sdk: introduce Style API
 
    * packages/apps/LineageParts/
+7b5a67f LineageParts: Update the way OMS records details about overlays
 0d9d600 Merge 'lineage-15.1' into 8.1
+
+   * packages/apps/Settings/
+1fd41fa Merge tag 'android-8.1.0_r15' into lineage-15.1
 
    * packages/apps/SlimRecents/
 6b7413c Use iconpack back shape if available otherwise system icons shape
 fb52d85 Improve performances and UI of Auto Expanded mode
+
+   * packages/apps/Snap/
+72869bf Do not crash if we don't have support for RAW files
 
    * packages/apps/crDroidHome/
 88e63eb Update text color for folder pane [3]
@@ -33,7 +156,18 @@ fb52d85 Improve performances and UI of Auto Expanded mode
 d12aa55 Updated translations
 d84a0e3 Updated translations
 
+   * system/bt/
+f76bc74 Merge tag 'android-8.1.0_r15' into lineage-15.1
+
+   * system/update_engine/
+841c1a9 Merge tag 'android-8.1.0_r15' into lineage-15.1
+
+   * system/vold/
+63d1064 Revert "f2fs: Fix kMkfsPath to match location of CM binary"
+
    * vendor/crDroidOTA/
+55277ed dumpling: update to crDroidAndroid-8.1-20180306-dumpling-v4.0
+6a70db4 mido: update
 96ab529 cheeseburger: Update
 
    * vendor/lineage/
