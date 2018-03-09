@@ -1,4 +1,46 @@
 ====================
+     03-09-2018
+====================
+
+   * android/
+daa8ba0 manifest: Track libnativehelper
+
+   * device/oneplus/msm8998-common/
+c06ee08 msm8998: audio: disable ANC if not in call
+
+   * external/chromium-webview/
+5b1f51b Update webviews to Chromium 65.0.3325.144
+
+   * frameworks/base/
+3c787da Updated translations
+b161048 hwui: Fix Native Crash of EGL_BAD_ALLOC
+0edfbf7 wakelock: continue read file when returned count > 0
+be78bab KernelWakelockReader: stop the panic
+5d44246 Accounts: Fix TokenCache maps access
+718191c PackageManager: Avoid null access
+6f7afa9 Revert "OMS: Only allow trusted overlays to be registered."
+9980491 Music ticker: once per track is enough
+daba7d0 Stock Recents: use Slim Recents icons management [1/2]
+9fe4bb9 Merge 'lineage-15.1' into 8.1
+
+   * lineage-sdk/
+dea0610 Revert "lineage-sdk: Update the way OMS records details about overlays"
+
+   * packages/apps/LineageParts/
+d971e73 Revert "LineageParts: Update the way OMS records details about overlays"
+
+   * packages/apps/Settings/
+d62d028 Revert "Update the way OMS records details about overlays"
+
+   * packages/apps/SlimRecents/
+ee6e934 Reset icons normalizer on icon pack change
+
+   * packages/apps/crDroidSettings/
+5311c91 Updated translations
+
+   * packages/inputmethods/LatinIME/
+8e7943c Latin IME bug with deleted text will reappear after screen orientation changes
+====================
      03-06-2018
 ====================
 
