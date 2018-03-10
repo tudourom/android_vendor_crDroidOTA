@@ -1,4 +1,81 @@
 ====================
+     03-10-2018
+====================
+
+
+   * bootable/recovery/
+56063ff updater: Fix allowing devices to suppress BLKDISCARD
+
+   * device/oneplus/msm8998-common/
+fef1054 msm8998-common: Add blobs needed for widevine L1 support
+0910541 msm8998: camera: add com.android.camera and snap to aux.packagelist
+4fae116 msm8998: unpin camera config
+
+   * frameworks/base/
+3bf0f5d frameworks: Fix mLteSignalStrength range check
+3de35a3 frameworks: Fixed signal strength issue
+a81e18a Don't consume all BACK keys in SearchView
+acd9074 Merge 'lineage-15.1' into 8.1
+e2b29ec AudioService: synchronize access to user selected volume ctrl stream
+bbe617f Bluetooth: Don't remove UUIDs if profile in connected state
+7f53caa Fix DynamicLayout block index calculation after edit
+013f277 Should show the lock task mode toast if can not launch the activity not in the locked task.
+06e6342 PackageManager: Catch possible NPE from unparsed platform package
+
+   * hardware/qcom/display/
+466c608 msm8974: Move QCOM HALs to vendor partition
+35a7b6a hwc: msm8084: Set ioprio for vsync thread
+fe84e7d display: Don't use gnu-oldstyle field designators
+a7b6e48 msm8084: include  kernel headers
+45f6cfe msm8960: copybit: Fix type conversion error for GCC 4.7
+96f36a5 display: add TARGET_PROVIDES_LIBLIGHT
+db1c905 display: Always assume kernel source is present
+c3af3f4 Revert "msm8974: deprecate msm8974"
+
+   * hardware/qcom/gps/
+e375f8c msm8974: Return the correct length of nmea sentence
+cd4b7f5 msm8974: Don't rely on transitively included headers
+aa21dd8 msm8974: Fix logging level and remove nmea log
+7a6cc46 msm8974: Fix duplicate gps.conf for hammerhead
+53199be msm8974: Move device dependent modules to /vendor
+87ae4d6 msm8974: Cleanup obsolete LOCAL_PRELINK_MODULE
+3b31cc3 msm8974: Default apn ip type to ipv4
+a1f9895 msm8974: Add missing liblog dependency
+9100f0e Revert "msm8974: remove from top level makefile"
+a00e4ad Revert "msm8974: deprecate msm8974"
+
+   * packages/apps/CarrierConfig/
+8f44654 CarrierConfig: HoT and tele.ring (232 07) may roam on T-Mobile (232 03)
+
+   * packages/apps/Gallery2/
+7cd4469 Fix the issue of view don't reload when onPause
+3c2f100 Fix FC of parsing uri is null
+ba099de SDGallery:Fix monkey FC when url from pick activity is null
+6d57bca Don't show Camera Icon when no pictures found in Albums
+15e538a SnapdragonGallery: Fix crash show dialog when activity finished
+385313d Fix custom filter don't work when first click after back to original
+de46c7f SnapdragonGallery: Fix dialog dismiss when home
+25eaa5b SnapdragonGallery: Fix multithread synchronization in screenReceiver
+
+   * packages/apps/SlimRecents/
+eae333a Fix icon being bigger than some iconpack backimages
+26e78e6 Don't add custom shape for unsupported apps but backimage available
+
+   * packages/apps/crDroidSettings/
+4ce3416 Updated translations
+b12a840 ButtonSettings: Add a toggle for button backlight only when pressed
+
+   * vendor/addons/
+679c402 addons: Remove unused overlays
+2449fd0 addons: Overlay style for cellbroadcastreceiver
+
+   * vendor/crDroidOTA/
+02ba583 cheeseburger: Update
+
+   * vendor/oneplus/
+c385273 msm8998-common: Add blobs needed for widevine L1 support
+b618787 Revert "msm8998: define second back camera as back and back_aux"
+====================
      03-09-2018
 ====================
 
