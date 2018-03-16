@@ -51,7 +51,7 @@
         <angler>
             <maintainer>Pranav Vashi (neobuddy89)</maintainer>
             <devicename>Nexus 6P</devicename>
-            <filename>crDroidAndroid-8.1-20180224-angler-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180311-angler-v4.0</filename>
             <buildtype>Nightly</buildtype>
             <download>https://goo.gl/6B2vYE</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_angler.txt</changelog>
@@ -59,6 +59,18 @@
             <forum>https://goo.gl/q23Fic</forum>
             <paypal>https://goo.gl/wFCtWu</paypal>
         </angler>
+         
+        <bullhead>
+            <maintainer>John Baumert (jbaumert)</maintainer>
+            <devicename>Nexus 5x</devicename>
+            <filename>crDroidAndroid-8.1-20180312-bullhead-v4.0</filename>
+            <buildtype>Weekly</buildtype>
+            <download>https://goo.gl/bXxDLL</download>
+            <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_bullhead.txt</changelog>
+            <gapps>http://opengapps.org</gapps>
+            <forum>https://goo.gl/TtmTiK</forum>
+            <paypal>https://goo.gl/g685gr</paypal>
+        </bullhead>         
 
         <seed>
             <maintainer>Kerem ERKAPLAN (furylions)</maintainer>
@@ -79,7 +91,7 @@
         <d850>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>D850</devicename>
-            <filename>crDroidAndroid-8.1-20180303-d850-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-d850-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -90,7 +102,7 @@
         <d851>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>D851</devicename>
-            <filename>crDroidAndroid-8.1-20180303-d851-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-d851-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -101,7 +113,7 @@
         <d852>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>D852</devicename>
-            <filename>crDroidAndroid-8.1-20180303-d852-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-d852-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -112,7 +124,7 @@
         <d855>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>D855</devicename>
-            <filename>crDroidAndroid-8.1-20180303-d855-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-d855-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -123,7 +135,7 @@
         <f400>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>F400</devicename>
-            <filename>crDroidAndroid-8.1-20180303-f400-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-f400-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -134,7 +146,7 @@
         <ls990>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>Ls990</devicename>
-            <filename>crDroidAndroid-8.1-20180303-ls990-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-ls990-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -145,7 +157,7 @@
         <vs985>
             <maintainer>Hildo Boerboom (Firebird11)</maintainer>
             <devicename>Vs985</devicename>
-            <filename>crDroidAndroid-8.1-20180303-vs985-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-vs985-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/oPs2F3</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
@@ -155,15 +167,51 @@
     </manufacturer>
 
     <!-- MOTOROLA -->
+
     <!-- NEXTBIT -->
+    <manufacturer id="Nextbit">
+        <ether>
+            <maintainer>Hildo Boerboom (Firebird11)</maintainer>
+            <devicename>Robin</devicename>
+            <filename>crDroidAndroid-8.1-20180310-ether-v4.0</filename>
+            <buildtype>Weekly</buildtype>
+            <download>https://goo.gl/g63qKd</download>
+            <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
+            <gapps>http://opengapps.org</gapps>
+            <forum>https://goo.gl/Ehv9sb</forum>
+        </ether>
+    </manufacturer>
+
     <!-- NVİDİA -->
 
     <!-- ONEPLUS -->
     <manufacturer id="OnePlus">
+        <oneplus2>
+            <maintainer>Hildo Boerboom (Firebird11)</maintainer>
+            <devicename>OnePlus2</devicename>
+            <filename>crDroidAndroid-8.1-20180312-oneplus2-v4.0</filename>
+            <buildtype>Weekly</buildtype>
+            <download>https://goo.gl/jXA4yZ</download>
+            <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
+            <gapps>http://opengapps.org</gapps>
+            <forum>https://goo.gl/ZKSK8p</forum>
+        </oneplus2>
+
+        <oneplus3>
+            <maintainer>Hildo Boerboom (Firebird11)</maintainer>
+            <devicename>OnePlus3</devicename>
+            <filename>crDroidAndroid-8.1-20180312-oneplus3-v4.0</filename>
+            <buildtype>Weekly</buildtype>
+            <download>https://goo.gl/K5kzjZ</download>
+            <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_firebird11.txt</changelog>
+            <gapps>http://opengapps.org</gapps>
+            <forum>https://goo.gl/Aahn4a</forum>
+        </oneplus3>
+
         <cheeseburger>
             <maintainer>Pranav Vashi (tudourom)</maintainer>
             <devicename>Oneplus 5</devicename>
-            <filename>crDroidAndroid-8.1-20180310-cheeseburger-v4.0-beta-tudourom</filename>
+            <filename>crDroidAndroid-8.1-20180316-cheeseburger-v4.0-beta-tudourom</filename>
             <buildtype>Nightly</buildtype>
             <download>https://goo.gl/XQRwca</download>
             <changelog>https://raw.githubusercontent.com/tudourom/android_vendor_crDroidOTA/8.1/changelog_cheeseburger.txt</changelog>
@@ -176,8 +224,8 @@
         <dumpling>
             <maintainer>Lup Gabriel (Gwolf2u - gwolfu@xda)</maintainer>
             <devicename>Oneplus 5T</devicename>
-            <filename>crDroidAndroid-8.1-20180308-dumpling-v4.0</filename>
-            <buildtype>Nightly</buildtype>
+            <filename>crDroidAndroid-8.1-20180314-dumpling-v4.0</filename>
+            <buildtype>Weekly</buildtype>
             <download>https://goo.gl/TDkPEy</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_dumpling.txt</changelog>
             <gapps>http://opengapps.org</gapps>
@@ -195,7 +243,7 @@
         <crackling>
             <maintainer>Alex Mubinov (beroid)</maintainer>
             <devicename>Swift</devicename>
-            <filename>crDroidAndroid-8.1-20180227-crackling-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180314-crackling-v4.0</filename>
             <buildtype>Nightly</buildtype>
             <download>https://goo.gl/hPgJfE</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_crackling.txt</changelog>
@@ -218,7 +266,7 @@
 
         <mido>
             <maintainer>Soubhik Khan (Soubhik_sk83)</maintainer>
-            <filename>crDroidAndroid-8.1-20180306-mido-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180313-mido-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/aa4Dis</download>
             <changelog>https://raw.githubusercontent.com/crdroidandroid/android_vendor_crDroidOTA/8.1/changelog_mido.txt</changelog>
@@ -238,7 +286,7 @@
 
          <land>
             <maintainer>Shubham Das (dasshubham762)</maintainer>
-            <filename>crDroidAndroid-8.1-20180307-land-v4.0</filename>
+            <filename>crDroidAndroid-8.1-20180310-land-v4.0</filename>
             <buildtype>Weekly</buildtype>
             <download>https://goo.gl/Lp1dYs</download>
             <changelog>https://goo.gl/eD4ceX</changelog>
